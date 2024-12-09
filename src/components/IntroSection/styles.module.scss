@@ -2,6 +2,7 @@
     background-image: url("/statue-justice.webp");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-x: 30%;
     width: 100%;
     height: calc(100vh - 80px);
     min-height: 650px;
@@ -10,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
-    padding: 0 100px;
+    padding: 50px 100px;
 
     .boxLeftContent {
         h1 {
@@ -66,5 +67,28 @@
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             margin: 0 0 60px 0;
         }
+    }
+}
+
+// Responsividade
+
+@media screen and (max-width: 1024px) {
+    .section {
+        flex-direction: column;
+        height: 100%;
+        gap: 50px;
+
+        .boxLeftContent {
+            h1 {
+                font-size: 3rem;
+                line-height: 3.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        padding: 50px;
     }
 }
