@@ -1,0 +1,70 @@
+.section {
+    background-image: url("/statue-justice.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 80px);
+    min-height: 650px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 100px;
+
+    .boxLeftContent {
+        h1 {
+            text-transform: uppercase;
+            color: #FFFFFF;
+            max-width: 350px;
+            font-size: 4rem;
+            line-height: 4.5rem;
+        }
+
+        button {
+            background-color: #F0DAC5;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 500;
+            font-size: 0.9rem;
+            box-sizing: content-box;
+        }
+
+        h4 {
+            color: #F0DAC5;
+            font-size: 1.25rem;
+            margin: 100px 0 15px 0;
+        }
+
+        p {
+            color: #FFFFFF;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            font-size: 1.75rem;
+            margin: 0;
+        }
+    }
+
+    .boxRightContent {
+        text-align: end;
+        max-width: 300px;
+        background-color: #000000;
+        opacity: .85;
+        padding: 15px 15px 15px 0;
+
+        h3 {
+            color: #FFFFFF;
+            font-weight: 200;
+            margin: 0 0 5px 0;
+        }
+
+        p {
+            color: #808080;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0 0 60px 0;
+        }
+    }
+}
