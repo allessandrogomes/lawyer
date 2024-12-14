@@ -44,7 +44,7 @@ export default function Header() {
     )
 
     return (
-        <Box sx={{ display: 'flex' }}>
+        <>
             <CssBaseline />
             <AppBar
                 position="fixed"
@@ -93,6 +93,6 @@ export default function Header() {
                     {drawer}
                 </Drawer>
             </Box>
-        </Box>
+        </>
     )
 }

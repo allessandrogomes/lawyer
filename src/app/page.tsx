@@ -5,6 +5,7 @@ import '@fontsource/roboto/500.css'
 import '@fontsource/roboto/700.css'
 import Header from "../components/Header"
 import IntroSection from "@/components/IntroSection"
+import SpecialtiesSection from "@/components/SpecialtiesSection"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Header />
       <main>
         <IntroSection />
+        <SpecialtiesSection />
       </main>
     </>
   );
