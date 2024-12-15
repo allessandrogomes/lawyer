@@ -1,0 +1,13 @@
+.input {
+    outline: none;
+    border: 0.5px solid #41434F;
+    border-radius: 3px;
+    padding: 20px;
+    width: 48%;
+    background-color: #2A2A32;
+    color: #FAFAFA;
+
+    @media screen and (max-width: 1024px) {
+        width: 100%;
+    }
+}

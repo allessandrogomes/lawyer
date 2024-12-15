@@ -6,6 +6,7 @@ import '@fontsource/roboto/700.css'
 import Header from "../components/Header"
 import IntroSection from "@/components/IntroSection"
 import SpecialtiesSection from "@/components/SpecialtiesSection"
+import FormSection from "@/components/FormSection"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <main>
         <IntroSection />
         <SpecialtiesSection />
+        <FormSection />
       </main>
     </>
   );
