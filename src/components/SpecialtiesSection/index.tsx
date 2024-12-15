@@ -106,9 +106,17 @@ export default function SpecialtiesSection() {
     function selectVideo(videoId: string) {
         const video = lawerVideos.find(video => video.id === videoId)
         setTypeLawerVideoSelected(video)
-        document.getElementById("video")!.scrollIntoView({
-            behavior: "smooth"
-        });
+        const videoElement = document.getElementById("video");
+
+        if (videoElement) {
+            const videoPosition = videoElement.getBoundingClientRect().top + window.pageYOffset;
+
+            // Ajustando a rolagem para 80px acima
+            window.scrollTo({
+                top: videoPosition - 100,
+                behavior: "smooth"
+            });
+        }
     }
 
     return (
