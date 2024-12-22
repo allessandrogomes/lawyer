@@ -1,0 +1,43 @@
+.section {
+    width: 100%;
+    height: 100%;
+    padding: 100px 200px;
+    position: relative;
+    background-color: #F5F2ED;
+    padding-right: 0;
+
+    h2 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2.5rem;
+        opacity: 0.9;
+    }
+
+    p {
+        opacity: 0.7;
+        max-width: 700px;
+    }
+
+    .boxButtons {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        width: max-content;
+        position: absolute;
+        right: 200px;
+        top: 230px;
+    }
+
+    @media screen and (max-width: 1024px) {
+        padding: 50px;
+
+        .boxButtons {
+            position: initial;
+        }
+    }
+
+    @media (min-width: 1025px) and (max-width: 1440px) {
+        .boxButtons {
+            right: 5%;
+        }
+    }
+}

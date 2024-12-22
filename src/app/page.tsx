@@ -7,6 +7,7 @@ import Header from "../components/Header"
 import IntroSection from "@/components/IntroSection"
 import SpecialtiesSection from "@/components/SpecialtiesSection"
 import FormSection from "@/components/FormSection"
+import RecentsCasesSection from "@/components/RecentsCasesSection"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <IntroSection />
         <SpecialtiesSection />
         <FormSection />
+        <RecentsCasesSection />
       </main>
     </>
   );

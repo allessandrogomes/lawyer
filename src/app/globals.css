@@ -1,0 +1,31 @@
+.swiper-button-next,
+.swiper-button-prev {
+    border: none;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    background-color: #50223C;
+    color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    /* Transição suave para a cor */
+}
+
+/* Cor dos botões de navegação quando o usuário passa o mouse (hover) */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: #50223cb4;
+    /* Cor de fundo no hover */
+}
+
+/* Cor dos botões de navegação quando estão desabilitados */
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+    background-color: #FFFFFF;
+    /* Cor de fundo para botões desabilitados */
+    color: #000000;
+    /* Cor do ícone quando o botão está desabilitado */
+    cursor: initial;
+}
