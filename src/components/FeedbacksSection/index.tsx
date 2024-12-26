@@ -40,16 +40,16 @@ export default function FeedbacksSection() {
 
                         <SwiperSlide>
                             <FeedbackCard
-                                image="/feedbacks/feedback-1.webp"
-                                autor="Luciano Frederico"
+                                image="/feedbacks/feedback-2.webp"
+                                autor="Ricardo Salvatore"
                                 message="&quot;Raylaw provides a professional and accountable Family Law practice without fear of the referrers reputation being diversely affected&quot;"
                             />
                         </SwiperSlide>
 
                         <SwiperSlide>
                             <FeedbackCard
-                                image="/feedbacks/feedback-1.webp"
-                                autor="Luciano Frederico"
+                                image="/feedbacks/feedback-3.webp"
+                                autor="Luci Alves"
                                 message="&quot;Raylaw provides a professional and accountable Family Law practice without fear of the referrers reputation being diversely affected&quot;"
                             />
                         </SwiperSlide>
