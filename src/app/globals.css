@@ -29,3 +29,37 @@
     /* Cor do ícone quando o botão está desabilitado */
     cursor: initial;
 }
+
+div.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+    padding-bottom: 20px;
+}
+
+div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    bottom: 6px;
+}
+
+span.swiper-pagination-bullet {
+    background-color: #FAFAFA;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #FAFAFA;
+    border: 1px solid #FAFAFA;
+    position: relative;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active::after {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    border: 1px solid #FAFAFA;
+    border-radius: 100%;
+    left: -6px;
+    top: -6px;
+
+}

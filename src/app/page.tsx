@@ -8,6 +8,7 @@ import IntroSection from "@/components/IntroSection"
 import SpecialtiesSection from "@/components/SpecialtiesSection"
 import FormSection from "@/components/FormSection"
 import RecentsCasesSection from "@/components/RecentsCasesSection"
+import FeedbacksSection from "@/components/FeedbacksSection"
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <SpecialtiesSection />
         <FormSection />
         <RecentsCasesSection />
+        <FeedbacksSection />
       </main>
     </>
   );

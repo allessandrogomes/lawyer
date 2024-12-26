@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FAFAFA;
+
+    .image {
+        width: 100px;
+        height: 100px;
+        background-image: url("/feedbacks/feedback-1.webp");
+        background-size: cover;
+        z-index: 2;
+        border-radius: 100%;
+    }
+
+    .message {
+        width: 80%;
+        max-width: 600px;
+    }
+
+    .stars {
+        color: #F8BE40;
+    }
+}
