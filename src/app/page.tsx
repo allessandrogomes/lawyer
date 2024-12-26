@@ -10,6 +10,7 @@ import FormSection from "@/components/FormSection"
 import RecentsCasesSection from "@/components/RecentsCasesSection"
 import FeedbacksSection from "@/components/FeedbacksSection"
 import NewsLetter from "@/components/Newsletter"
+import Map from "@/components/Map"
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <RecentsCasesSection />
         <FeedbacksSection />
         <NewsLetter />
+        <Map />
       </main>
     </>
   );
