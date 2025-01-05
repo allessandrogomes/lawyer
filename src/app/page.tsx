@@ -20,11 +20,11 @@ export default function Home() {
       <main>
         <IntroSection />
         <SpecialtiesSection />
-        <FormSection />
         <RecentsCasesSection />
         <FeedbacksSection />
         <NewsLetter />
         <Map />
+        <FormSection />
         <Footer />
       </main>
     </>
