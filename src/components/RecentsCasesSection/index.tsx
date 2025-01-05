@@ -10,7 +10,7 @@ import { Navigation } from "swiper/modules"
 
 export default function RecentsCasesSection() {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="casos">
             <h2>Recents Cases Studies</h2>
             <p>Our commitment and dedication to continually move forward enables us to improve our representation and provide you with a service you...</p>
             <div className={styles.boxButtons}>

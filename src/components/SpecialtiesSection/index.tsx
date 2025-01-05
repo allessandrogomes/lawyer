@@ -120,7 +120,7 @@ export default function SpecialtiesSection() {
     }
 
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="especialidades">
             <TitleSubtitle title="Criminal Defense Cases we Cover Since 1986" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique justo a mauris convallis, at bibendum nisl tincidunt. Nulla facilisi. Suspendisse potenti. Fusce vehicula, nisi a aliquam luctus." />
             <div className={styles.specialties}>
                 <div className={styles.boxButtons}>

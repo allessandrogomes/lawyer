@@ -6,7 +6,7 @@ import { FaPhone } from "react-icons/fa"
 
 export default function FormSection() {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="form">
             <div className={styles.containerForm}>
                 <h2>Request a Free Consultation</h2>
                 <p>Fill out the form below to ricieve a free and confidential initial consultation</p>

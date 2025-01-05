@@ -2,7 +2,7 @@ import styles from "./styles.module.scss"
 
 export default function IntroSection() {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="inicio">
 
             <div className={styles.boxLeftContent}>
                 <h1>Best Law Expart In The Erea</h1>

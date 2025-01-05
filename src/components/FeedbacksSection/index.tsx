@@ -10,7 +10,7 @@ import "swiper/css/pagination"
 
 export default function FeedbacksSection() {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id="depoimentos">
             <div className={styles.statistics}>
                 <div className={styles.boxStatistics}>
                     <StatisticsNumber title="12k+" subtitle="Complete Work" />
