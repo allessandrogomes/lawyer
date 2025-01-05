@@ -1,0 +1,20 @@
+.container {
+    .list {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 0;
+        margin: 0;
+        gap: 15px;
+        
+        li {
+            cursor: pointer;
+            opacity: 0.50;
+            
+            &:hover {
+                opacity: 100;
+            }
+        }
+    }
+}

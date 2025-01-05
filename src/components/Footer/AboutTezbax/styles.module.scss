@@ -1,0 +1,43 @@
+.container {
+
+    p,
+    h5 {
+        margin: 0;
+    }
+
+    p {
+        max-width: 300px;
+        font-weight: 200;
+        line-height: 35px;
+        margin-bottom: 50px;
+    }
+
+    h5 {
+        color: #FAFAFA;
+        font-size: 1.25rem;
+        font-weight: 200;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .phoneNumber {
+        max-width: max-content;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+
+        .icon {
+            width: 60px;
+            height: 60px;
+            color: #F0DAC5;
+        }
+
+        p {
+            color: #F0DAC5;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            font-size: 1.25rem;
+            margin: 0;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.section {
+    width: 100%;
+    background-color: #212227;
+    color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 200px 50px 200px;
+
+    .boxLinks {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+
+    .divisory {
+        width: 100%;
+        height: 1px;
+        background-color: #FAFAFA;
+        margin: 100px 0 50px 0;
+        opacity: 0.25;
+    }
+
+    h3 {
+        font-size: 1rem;
+        font-weight: 200;
+        opacity: 0.5;
+        margin: 0;
+    }
+
+    @media screen and (max-width: 1024px) {
+        padding: 50px;
+    }
+}

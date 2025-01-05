@@ -11,6 +11,7 @@ import RecentsCasesSection from "@/components/RecentsCasesSection"
 import FeedbacksSection from "@/components/FeedbacksSection"
 import NewsLetter from "@/components/Newsletter"
 import Map from "@/components/Map"
+import Footer from "@/components/Footer"
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <FeedbacksSection />
         <NewsLetter />
         <Map />
+        <Footer />
       </main>
     </>
   );
